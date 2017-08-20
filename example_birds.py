@@ -75,6 +75,7 @@ class Bird(object):
                 return
 
         self.speed = fly_method(x, y, z, speed, self.move)
+        self.status = 'fly'
 
     def move(x, y, z):
         self.x = x
@@ -131,6 +132,7 @@ class Bird(object):
                 return
 
         self.speed = fly_method(x, y, z, speed, self.move)
+        self.status = 'fly'
 
     def move(x, y, z):
         self.x = x
